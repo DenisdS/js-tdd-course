@@ -1,0 +1,23 @@
+{
+  "name": "JSS with TDD",
+  "version": "1.0.0",
+  "description": "JS with TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DenisdS/js-tdd-course.git"
+  },
+  "keywords": [
+    "JS",
+    "TDD"
+  ],
+  "author": "DenisdS <denis_santos1989@hotmail.com> (https://github.com/DenisdS)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DenisdS/js-tdd-course/issues"
+  },
+  "homepage": "https://github.com/DenisdS/js-tdd-course#readme"
+}
