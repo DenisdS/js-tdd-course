@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Array find / findIndex</title>
+  </head>
+  <body>
+
+  </body>
+  <script>
+      const data = [
+          {
+              name: 'Denis',
+              age: 28,
+              city: 'Rio de Janeiro'
+          },
+          {
+              name: 'Santos',
+              age: 29,
+              city: 'São Paulo'
+          }
+      ];
+
+      const sampleArray = [4, -5, 0];
+
+      const underZero = sampleArray.find(x => x < 0);//Expression for verify each value inner in the array
+      const underZeroIndex = sampleArray.findIndex(x => x < 0);//Expression for verify each value inner in the array
+
+      console.log(underZero);
+      console.log(underZeroIndex);
+
+      const denis = data.find(person => person.name === 'Denis');
+      const santosIndex = data.findIndex(person => person.name === 'Santos');
+      console.log(denis);
+      console.log(santosIndex);
+    </script>
+</html>
