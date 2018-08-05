@@ -1,10 +1,11 @@
 {
-  "name": "JSS with TDD",
+  "name": "JSSwithTDD",
   "version": "1.0.0",
   "description": "JS with TDD",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "./node_modules/.bin/eslint src/*js"
   },
   "repository": {
     "type": "git",
