@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Templates Literals</title>
+  </head>
+  <body>
+    <script>
+      let firstName = 'Denis';
+      let lastName = 'Santos';
+      let age = 28;
+
+      const person = {// In ES6 is possible insert of way short, if the property have same name that the var
+        firstName,
+        lastName,
+        age,
+
+        hello(){
+            console.log('Hello!');
+        }
+      };
+
+      console.log(person);
+      person.hello();
+    </script>
+  </body>
+</html>
