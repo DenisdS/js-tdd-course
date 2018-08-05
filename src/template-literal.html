@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Templates Literals</title>
+  </head>
+  <body>
+    <script>
+      const ireland = {
+        live: 'Dublin',
+        love: 'Galway'
+      };
+
+      const text = 'I live in ' + ireland.live + ' and I enjoy ' + ireland.love + '!';
+      const newText = `I live in ${ireland.live} and I enjoy ${ireland.love}!`;
+      //console.log(newText);
+
+      const fruits = 'orange'
+        + '\n'
+        + 'limon'
+        + '\n'
+        + 'apple';
+        //console.log(fruits);
+
+const newFruits =
+`orange
+limon
+apple`;
+console.log(newFruits);
+    </script>
+  </body>
+</html>
